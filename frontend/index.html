@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria de Imagenes - Lab S3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Galeria en S3</h1>
+    <p>Sube tus imagenes de forma segura con URLs prefirmadas</p>
+  </header>
+  <main>
+    <section class="upload">
+      <input type="file" id="file" accept="image/jpeg,image/png,image/webp">
+      <button id="uploadBtn">Subir imagen</button>
+      <div id="status"></div>
+    </section>
+    <h2>Mis imagenes</h2>
+    <div id="gallery"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
